@@ -1,0 +1,174 @@
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+/* 상품문의 */
+.sub_content {
+    flex: 1;
+    padding: 20px 0 0;
+    width: 1024px;
+    position: relative;
+    margin: 0 auto;
+}
+.sub_content .content {
+    width: 100%;
+    min-height: 500px;
+    padding: 0;
+}
+.board_zone_sec {
+    position: relative;
+}
+.board_zone_tit {
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+    font-size: 16px;
+}
+[class^="body-"]:not(.body-main) [class$="_tit"] > h2 {
+    line-height: 1.2;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+}
+
+
+/* 상품문의 테이블 */
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+.board_list_table {
+    width: 100%;
+    margin: 0 0 20px 0;
+    border: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-top: 1px solid #999999;
+    text-align: center;
+    table-layout: fixed;
+}
+.board_date {
+	width: 13%;
+}
+.board_category {
+	width: 12%;
+}
+.board_title {
+	width: 40%;
+}
+.board_writer {
+	width: 12%;
+}
+.board_state {
+	width: 13%;
+}
+.board_tit{
+	width: 30%;
+	text-align: left;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+.board_table_nosearch {
+	width: 100%;
+}
+
+.board_list_table th {
+    padding: 10px 10px 10px 14px;
+    border-bottom: 1px solid #dbdbdb;
+    background: #fbfbfb;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+}
+.board_list_table td {
+    padding: 13px 10px 15px 10px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.board_list_table .board_tit {
+    text-align: left;
+    vertical-align: middle;
+}
+
+/* 페이지 */
+.pagination {
+    margin: 20px 0 0;
+    padding: 20px 0 0;
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+    font-weight: 300;
+    
+}
+
+
+/* 1:1문의하기 */
+.btn_right_box {
+    text-align: right;
+    display: flex;
+    font-weight: bold;
+    
+}
+
+.btn_mine {
+	display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 100px;
+    min-width: 90px;
+    height: 31px;
+    margin: 0 0 0 5px;
+    padding: 0 10px 0 10px;
+    line-height: 29px;
+    color: #ffffff;
+    font-size: 12px;
+    border: 1px solid #979797;
+    background: #979797;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.btn_write {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    min-width: 90px;
+    height: 31px;
+    margin: 0 0 0 5px;
+    padding: 0 10px 0 10px;
+    line-height: 29px;
+    color: #ffffff;
+    font-size: 12px;
+    border: 1px solid #979797;
+    background: #979797;
+    text-align: center;
+    vertical-align: middle;
+}
+/*.write_text {
+    font-weight: bold;
+}*/

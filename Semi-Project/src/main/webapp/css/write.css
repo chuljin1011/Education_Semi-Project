@@ -1,0 +1,328 @@
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+/* 상품문의 head */
+#container, .container, .contentNEW {
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    border-top: 0;
+}
+#contents {
+    width: 100%;
+    padding: 0 0 80px;
+}
+#contents {
+    min-height: 450px;
+}
+.sub_content {
+    flex: 1;
+    padding: 20px 0 0;
+    width: 1024px;
+    position: relative;
+    margin: 0 auto;
+}
+.sub_content .content {
+    width: 100%;
+    min-height: 500px;
+    padding: 0;
+}
+
+.board_zone_sec {
+    position: relative;
+}
+.board_zone_tit {
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+    font-size: 16px;
+}
+[class^="body-"]:not(.body-main) [class$="_tit"] > h2 {
+    line-height: 1.2;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+}
+
+/* 글쓰기 */
+/*
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+*/
+.board_write_box {
+    margin: 0 10px 0 0;
+    padding: 0;
+}
+/*
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+*/
+.board_write_table {
+    width: 100%;
+    margin: 0 0 20px 0;
+    border: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-top: 1px solid #999999;
+}
+colgroup {
+    display: table-column-group;
+    unicode-bidi: isolate;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+.board_write_table th {
+    padding: 13px 0 7px 25px;
+    font-weight: bold;
+    border-bottom: 1px solid #dbdbdb;
+    background: #fbfbfb;
+    text-align: left;
+    vertical-align: top;
+}
+.board_write_table td {
+    height: 32px;
+    margin: 0;
+    padding: 7px 0 7px 15px;
+    border-bottom: 1px solid #dbdbdb;
+    background: #ffffff;
+}
+
+/* 말머리 */
+select {
+    height: 31px;
+    color: #717171;
+    vertical-align: top;
+    outline: none;
+}
+option {
+    font-weight: normal;
+    display: block;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    white-space: nowrap;
+}
+input[type="text"], input[type="password"] {
+    height: 31px;
+    padding: 0 10px;
+    color: #333333;
+    border: 1px solid #d6d6d6;
+    line-height: 31px;
+    /* -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;*/
+    box-sizing: border-box;
+    outline: none;
+    font-size: 12px;
+}
+.board_write_table td > input {
+    width: 312px;
+}
+
+/* 상품선택 */
+.btn_goods_select {
+    display: inline-block;
+    width: 80px;
+    height: 26px;
+    margin: 0 0 0 5px;
+    line-height: 24px;
+    color: #ffffff;
+    font-size: 12px;
+    border: 1px solid #979797;
+    background: #979797;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* 본문 */
+.form_element {
+    padding: 5px 0 10px 0;
+}
+
+
+.content_editor {
+    border: 1px solid #979797;
+    padding: 5px;
+    width: 500px;
+    height: 200px;
+    resize: none;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 1px solid #d6d6d6;
+    
+}
+textarea:focus {
+    outline: none;
+}
+/*input[type="text"].content_text {
+    float: left;
+    width: 460px;
+    height: 200px;
+    
+}*/
+.file_upload_sec {
+    overflow: hidden;
+    width: 100%;
+    margin: 5px 0 5px 0;
+}
+.file_upload_sec .file_text {
+    float: left;
+    width: 230px;
+}
+.file_upload_sec .btn_upload_box {
+    overflow: hidden;
+    position: relative;
+    float: left;
+    width: 150px;
+    padding: 0 0 0 6px;
+}
+.file_upload_sec .btn_upload_box .btn_upload {
+    width: 70px;
+    height: 31px;
+    color: #fff;
+    border: 1px solid #979797;
+    background: #979797;
+    text-align: center;
+}
+.file_upload_sec .btn_upload_box .btn_gray_big {
+    width: 62px;
+}
+.btn_gray_list .btn_gray_big {
+    height: 31px;
+    background-position: 0 -140px;
+}
+.btn_gray_list a, .btn_gray_list button {
+    display: inline-block;
+    padding: 0 0 0 11px;
+    /*background: url(../img/common/btn/btn_gray_bg.png) repeat-x;*/
+    border: 1px solid #dbdbdb;
+    vertical-align: middle;
+}
+.btn_gray_list .btn_gray_big span {
+    line-height: 31px;
+}
+.btn_gray_list a span, .btn_gray_list button span {
+    display: inline-block;
+    padding: 0px 12px 0 0;
+}
+
+/* 자동등록방지 */
+.capcha {
+    display: table;
+    padding: 10px 0 10px 0;
+}
+.capcha_img {
+    display: table-cell;
+    width: 304px;
+    height: 106px;
+    border: 1px solid #d6d6d6;
+    text-align: center;
+    vertical-align: middle;
+}
+.capcha_txt {
+    display: table-cell;
+    padding: 0 0 0 20px;
+}
+.capcha_txt p {
+    margin: 0 0 10px 0;
+}
+
+.btn_gray_list .btn_gray_small span {
+    line-height: 22px;
+}
+.btn_gray_list a span, .btn_gray_list button span {
+    display: inline-block;
+    padding: 0px 12px 0 0;
+}
+.capcha_txt .btn_gray_list {
+    display: block;
+    margin: 10px 0 0 0;
+}
+fieldset, img {
+    border: 0 none;
+    vertical-align: top;
+}
+
+/* 제공동의 체크박스 */
+.order_agree {
+    margin: 20px 0 0 0;
+    padding: 10px 10px 10px 20px;
+    border: 1px solid #dbdbdb;
+    width: 1024;
+}
+.order_zone_title {
+    padding: 0 0 10px 0;
+    font-size: 12px;
+}
+.agreement_box {
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+    margin: 0 0 10px 0;
+    font-size: 12px;
+    height: 100px;
+    overflow: auto;
+}
+.check_s {
+    font-size: 12px;
+}
+.check_s strong {
+    text-decoration: underline;
+}
+
+/* 이전, 저장 버튼 */
+.board_zone_sec .btn_center_box {
+    margin: 30px 0 0 0;
+}
+.btn_center_box {
+    text-align: center;
+}
+.btn_center_box button {
+    margin: 0 2px 0 3px;
+}
+.btn_before {
+    display: inline-block;
+    width: 100px;
+    height: 42px;
+    padding: 0 5px 0 5px;
+    color: #3e3d3c;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    text-align: center;
+    cursor: pointer;
+}
+strong {
+    font-weight: bold;
+}
+.btn_write_ok {
+    display: inline-block;
+    min-width: 90px;
+    height: 42px;
+    padding: 0 10px 0 10px;
+    color: #ffffff;
+    font-size: 14px;
+    border: 1px solid #404040;
+    background: #404040;
+    text-align: center;
+    cursor: pointer;
+}

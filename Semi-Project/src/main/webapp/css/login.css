@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+#loginArea {
+	background: white;
+	height: 400px;
+	width: 400px;
+	margin: 50px auto;
+}
+
+.loginText p{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.loginArea_sub {
+	border: 1px solid #ddd;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.loginArea_sub p {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.loginbox p {
+	margin: 0 0 10px 0;
+}
+
+#loginbox_top {
+	margin-bottom: 15px;
+}
+
+#loginbox_top p {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#loginbox_mid {
+	margin-bottom: 20px;
+}
+
+#loginbox_mid_1 ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#loginbox_mid_1 ul li {
+	margin-bottom: 10px;
+}
+
+#loginbox_mid_1 input[type="text"], #loginbox_mid_1 input[type="password"]
+	{
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+#loginbox_mid_1 input[type="checkbox"] {
+	margin-right: 5px;
+}
+
+#loginbox_mid_1 label {
+	display: inline;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#loginbox_mid_2 button {
+	width: 100%;
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+#loginbox_mid_2 button:hover {
+	background-color: #555;
+}
+
+#loginbox_bottom {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+}
+
+#joinBtn, #findIDBtn, #findPWBtn {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#joinBtn {
+    background-color: #5f5f5f;
+    color: white;
+}
+
+#joinBtn:hover {
+    background-color: #c0c0c0;
+}
+
+#findIDBtn:hover, #findPWBtn:hover {
+    background-color: #ddd;
+}
+
+#id_passwd_check {
+	color: red;
+}
+
+.error {
+	color: red;
+	display: none;
+}

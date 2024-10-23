@@ -1,0 +1,143 @@
+#container {
+    width: 1024px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#contents {
+    width: 100%;
+    padding: 0 0 80px;
+    min-width: 450px;
+}
+
+.sub_content {
+    padding: 20px 0 0;
+    width: 1024px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.sub_content .content {
+    width: 100%;
+    min-width: 500px;
+    padding: 0;
+}
+
+.board_zone_sec {
+    position: relative;
+}
+
+.board_zone_tit {
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+    font-size: 16px;
+}
+
+.board_zone_tit h2 {
+    line-height: 1.2;
+    color: black;
+    font-size: 24px;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+}
+
+.board_view_tit {
+    overflow: hidden;
+    padding: 15px 15px 15px 15px;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #dbdbdb;
+    background: #f7f7f7;
+}
+
+.board_zone_view .board_view_info {
+    overflow: hidden;
+    padding: 10px 15px 10px 15px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.board_view_info .view_info_idip {
+    display: inline-block;
+}
+
+.board_view_info .view_info_day {
+    display: inline-block;
+    height: 10px;
+    margin: 0 0 0 7px;
+    font-size: 11px;
+    border-left: 1px solid #dbdbdb;
+    vertical-align: middle;
+}
+
+.board_view_info .view_info_day em {
+    position: relative;
+    display: block;
+    top: -3px;
+    padding: 0 0 0 10px;
+}
+
+.board_view_info .view_info_hits {
+    float: right;
+    text-align: right;
+}
+
+.board_view_content {
+    min-height: 350px;
+    text-align: center;
+}
+
+.seem_cont {
+    padding: 30px 15px 30px 15px;
+    line-height: 1.8;
+}
+
+.board_view_content img {
+    max-width: 100%;
+}
+
+.board_view_comment {
+    padding: 10px 0 10px 0;
+}
+
+.view_comment {
+    padding: 0 0 0 0;
+    border-bottom: 1px solid #dbdbdb;
+    background: #ffffff;
+}
+
+.board_zone_view + .btn_right_box {
+    margin: 10px 0 0 0;
+}
+
+.btn_right_box {
+    text-align: right;
+}
+
+.btn_board_list {
+    height: 28px;
+    line-height: 26px;
+    margin: 0 0 0 5px;
+    padding: 0 12px 0 12px;
+    color: #666666;
+    border: 1px solid #a3a3a3;
+    text-align: center;
+}
+.btn_board_modify {
+    height: 28px;
+    line-height: 26px;
+    margin: 0 0 0 5px;
+    padding: 0 12px 0 12px;
+    color: #666666;
+    border: 1px solid #a3a3a3;
+    text-align: center;
+}
+ .btn_board_remove {
+    height: 28px;
+    line-height: 26px;
+    margin: 0 0 0 5px;
+    padding: 0 12px 0 12px;
+    color: #666666;
+    border: 1px solid #a3a3a3;
+    text-align: center;
+}
+
+

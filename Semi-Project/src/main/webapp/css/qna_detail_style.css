@@ -1,0 +1,187 @@
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+/* 상품문의(view) 제목 */
+#contents {
+    width: 100%;
+    padding: 0 0 80px;
+}
+#contents {
+    min-height: 450px;
+}
+.sub_content {
+    flex: 1;
+    padding: 20px 0 0;
+    width: 1024px;
+    position: relative;
+    margin: 0 auto;
+}
+.sub_content .content {
+    width: 100%;
+    min-height: 500px;
+    padding: 0;
+}
+.board_zone_sec {
+    position: relative;
+}
+.board_zone_tit {
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+    font-size: 16px;
+}
+[class^="body-"]:not(.body-main) [class$="_tit"] > h2 {
+    line-height: 1.2;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+}
+.board_view_tit {
+    overflow: hidden;
+    padding: 15px 15px 15px 15px;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #dbdbdb;
+    background: #f7f7f7;
+}
+.board_view_tit h3 {
+    display: inline-block;
+    color: #111111;
+    font-size: 14px;
+}
+.board_zone_view .board_view_info {
+    overflow: hidden;
+    padding: 10px 15px 10px 15px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.board_view_info .view_info_idip {
+    display: inline-block;
+}
+strong {
+    font-weight: bold;
+}
+.board_view_info .view_info_idip em {
+    color: #acacac;
+    font-size: 11px;
+}
+.board_view_info .view_info_day {
+    display: inline-block;
+    height: 10px;
+    margin: 0 0 0 7px;
+    font-size: 11px;
+    border-left: 1px solid #dbdbdb;
+    vertical-align: middle;
+}
+.board_view_info .view_info_day em {
+    position: relative;
+    display: block;
+    top: -3px;
+    padding: 0 0 0 10px;
+}
+
+/* 문의사항 내용 */
+.board_view_content {
+    min-height: 350px;
+}
+.view_question_box p {
+    display: block;  /* display: none; 이 있으면 변경 */
+    visibility: visible;  /* visibility: hidden; 이 있으면 변경 */
+    color: #000;  /* 텍스트 색상 확인 */
+    font-size: 14px;  /* 적절한 크기로 설정 */
+}
+.view_question_box img {
+    max-width: 100%; /* 이미지를 컨테이너 너비에 맞게 조정 */
+    height: auto; /* 비율에 맞게 높이를 자동 조정 */
+    display: block; /* 이미지 하단의 여백 제거 */
+    margin: 0 auto; /* 가운데 정렬 (필요시) */
+    object-fit: cover; /* 이미지를 컨테이너에 맞게 잘라내기 (필요시) */
+    
+}
+
+.view_select_item_img .product_info {
+	padding: 0 0 0 110px;
+}
+
+.product_info {
+	font-size: 14px;
+}
+
+#product_price {
+	font-size: 12px;
+}
+.view_goods_select {
+    margin: 1px 0 0 0;
+}
+.view_goods_select_item {
+    margin: 10px 0 3px 0;
+    padding: 20px 20px 30px 20px;
+    border-bottom: 1px dotted #dbdbdb;
+}
+
+.view_select_item_img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+.view_select_item_info {
+    display: inline-block;
+    position: relative;
+    padding: 0px 0 0 20px;
+    font-size: 14px;
+}
+.view_select_item_info em {
+    display: block;
+    font-weight: bold;
+}
+.board_view_qa {
+    min-height: 100px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.board_view_qa .view_question_box {
+    position: relative;
+    padding: 10px 0 30px 20px;
+}
+.board_view_qa .view_question_tit, .board_view_qa .view_answer_tit {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    color: #333333;
+    font-size: 24px;
+    font-family: arial;
+}
+.board_view_qa .seem_cont {
+    padding: 0 15px 0 15px;
+    margin: 10px 0 10px 0;
+}
+
+/* 오른쪽 버튼 */
+.board_zone_view + .btn_right_box {
+    margin: 20px 0 60px 0;
+}
+.btn_right_box {
+    text-align: right;
+}
+.btn_board_del, .btn_board_edit, .btn_board_list {
+    height: 28px;
+    line-height: 26px;
+    margin: 0 0 0 5px;
+    padding: 0 12px 0 12px;
+    color: #666666;
+    border: 1px solid #a3a3a3;
+    text-align: center;
+}
+
+.view_select_item_img img {
+	width: 100px;
+	border: 1.5px solid #a9a2a2;
+	float: left;
+}
+view_select_item_img p {
+	padding: 0 0 0 110px;
+}
+
+.product_price {
+	font-size: 12px;
+}
